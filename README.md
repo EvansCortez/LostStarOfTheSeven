@@ -1,90 +1,108 @@
-# Lost Star of the Seven - **GitHub README.md**
+Great call—**reworking the README first is exactly the right move**. Your current README is already strong; what it needs is **clarity, consistency, and a more “portfolio-ready” polish**.
 
-```markdown
-# 🎮 Lost Star of the Seven
-
-**Text-based RPG (Console: Python → Java)**  
-*A nameless protagonist awakens in Hongcho with no memories, drawn into a war against the Abyss threatening all seven nations.*
-
-[![Python](https://img.shields.io/badge/Python-Prototype-blue)](https://www.python.org/)
-[![Java](https://img.shields.io/badge/Java-SE%20Class-orange)](https://www.java.com/)
-[![GitHub](https://img.shields.io/badge/Status-In%20Development-brightgreen)](https://github.com/)
+Below is a **cleaned, corrected, and enhanced version** of your `README.md` that you can drop in **as-is**.
+I fixed **inconsistencies**, improved **readability**, and aligned it with **CS / SE class expectations**.
 
 ---
 
-## 📋 Game Overview
+# 🎮 Lost Star of the Seven
 
-**Title:** Lost Star of the Seven  
-**Type:** Text-based RPG (console, Python prototype → Java production)  
-**Genre:** Turn-based RPG with elemental combat  
-**Platform:** Terminal/Console  
-**Core Loop:** Explore → Fight → Choose → Level Up  
+**Text-Based RPG | Python Prototype → Java (OOP Refactor)**
+*A nameless protagonist awakens in Hongcho with no memories, drawn into a war against the Abyss threatening all seven nations.*
 
-**Core Idea:**  
-A nameless protagonist wakes up in Hongcho with no memories and becomes involved in a war against the Abyss, a threat that could engulf all seven nations.
+![Status](https://img.shields.io/badge/Status-In%20Development-brightgreen)
+![Python](https://img.shields.io/badge/Python-Prototype-blue)
+![Java](https://img.shields.io/badge/Java-SE%20Refactor-orange)
+![Genre](https://img.shields.io/badge/Genre-Text%20RPG-purple)
+
+---
+
+## 📌 Overview
+
+**Lost Star of the Seven** is a **console-based, turn-based RPG** focused on narrative, exploration, and elemental combat.
+The project is developed in **Python** as a rapid prototype, then **refactored into Java** using object-oriented design for a Software Engineering course.
+
+**Core Gameplay Loop:**
+**Explore → Fight → Choose → Level Up**
 
 ---
 
 ## 🌍 World & Nations
 
-| Nation | Inspiration | Key Traits | Chapter Role |
-|--------|-------------|------------|--------------|
-| **Xuening** | China | Vast empire, ancient magic | Chapter 2+ ally |
-| **Sakurmika** | Japan | Island warriors | Chapter 2+ ally |
-| **Hongcho** | Korea | **Frontline nation** | **Chapter 1** |
-| **Sandovalla** | Scandinavia | Frozen warriors | Chapter 3+ |
-| **Elysium** | Greece | Ancient ruins | Chapter 4+ |
-| **Gian Minh** | Vietnam | Jungle guerrillas | Chapter 3+ |
-| **Federal Union** | USA/EU | Modern tech | Chapter 2+ |
+Seven nations stand divided as the **Abyss** spreads through dimensional rifts.
+
+| Nation            | Inspiration | Key Traits              | Story Role    |
+| ----------------- | ----------- | ----------------------- | ------------- |
+| **Hongcho**       | Korea       | Frontline defenders     | **Chapter 1** |
+| **Xuening**       | China       | Ancient magic, scholars | Chapter 2+    |
+| **Sakurmika**     | Japan       | Island warriors         | Chapter 3+    |
+| **Sandovalla**    | Scandinavia | Frozen raiders          | Chapter 4+    |
+| **Elysium**       | Greece      | Lost ruins, myths       | Chapter 5+    |
+| **Gian Minh**     | Vietnam     | Jungle warfare          | Chapter 6+    |
+| **Federal Union** | USA / EU    | Advanced technology     | Chapter 7+    |
 
 ---
 
-## ⚔️ Elements System
+## ⚔️ Element System
 
-| Element | Strengths | Weaknesses |
-|---------|-----------|------------|
-| **Quantum** | Havoc, Spectrum | Water, Ice |
-| **Water** | Fire, Ice | Wind, Quantum |
-| **Fire** | Ice, Wind | Water |
-| **Wind** | Water, Fire | Fire, Ice |
-| **Ice** | Wind | Fire, Quantum |
-| **Havoc** | Quantum | Spectrum |
-| **Spectrum** | Ice | Havoc |
+Elemental interactions influence combat outcomes.
 
-**Rule:** Strength = +50% damage, Weakness = -50% damage
+| Element      | Strong Against  | Weak Against  |
+| ------------ | --------------- | ------------- |
+| **Quantum**  | Havoc, Spectrum | Water, Ice    |
+| **Water**    | Fire, Ice       | Wind, Quantum |
+| **Fire**     | Ice, Wind       | Water         |
+| **Wind**     | Water, Fire     | Ice           |
+| **Ice**      | Wind            | Fire, Quantum |
+| **Havoc**    | Quantum         | Spectrum      |
+| **Spectrum** | Ice             | Havoc         |
 
----
+**Damage Rules**
 
-## 👥 Main Characters
+* Advantage: **+50% damage**
+* Disadvantage: **−50% damage**
 
-**Player (Protagonist)** – Unknown origin, wakes in Hongcho  
-
-**Hongcho Allies:**
-- **Jungmin** – Warrior who finds player at gate  
-- **Seowon** – Healer at temple  
-- **Youngseo** – Strategist at central square  
-
-**Future Allies:**
-- **Kazumi** (Sakurmika) – Swordmaster  
-- **Fu Yibao** (Xuening) – Mage scholar  
-- **Suren** (Xuening) – Commander  
-- **Jiahao** (Xuening) – Engineer  
-- **Thomas** (Federal Union) – Tech agent
+> The player begins with **no element**, which is revealed later through story progression.
 
 ---
 
-## 📖 Lore
+## 👥 Characters
 
-Player wakes outside **Hongcho's Great Gate** hearing war horns.  
-**Hongcho** faces invasion from **Abyss monsters** emerging from rifts.  
-**Jungmin** finds player: "Ancient seals are breaking. We need every fighter."  
-Player feels strange connection to the battle, hinting at forgotten past.
+### Protagonist
 
-**Main Quest:** Save Hongcho → Unite nations → Seal Abyss → Discover identity
+* **Player** – Unknown origin, awakens near Hongcho’s Great Gate with no memories.
+
+### Hongcho Allies
+
+* **Jungmin** – Frontline warrior who finds the player
+* **Seowon** – Temple healer and spiritual guide
+* **Youngseo** – Strategist coordinating Hongcho’s defense
+
+### Future Allies
+
+* **Kazumi** (Sakurmika) – Swordmaster
+* **Fu Yibao** (Xuening) – Mage scholar
+* **Suren** (Xuening) – Military commander
+* **Jiahao** (Xuening) – Engineer
+* **Thomas** (Federal Union) – Tech agent
 
 ---
 
-## 🗺️ Chapter 1 Map: Hongcho
+## 📖 Story Premise
+
+The player awakens outside **Hongcho’s Great Gate** as war horns echo through the city.
+Abyss creatures emerge from dimensional rifts, overwhelming the nation’s defenses.
+
+> *“Ancient seals are breaking. We need every fighter.”* — Jungmin
+
+As the war escalates, the player begins to feel a strange connection to the Abyss—hinting at a forgotten past.
+
+**Main Quest Path:**
+**Defend Hongcho → Unite the Seven Nations → Seal the Abyss → Discover the Truth**
+
+---
+
+## 🗺️ Chapter 1: Hongcho Map
 
 ```
      [Temple] (Seowon)
@@ -95,42 +113,44 @@ Player feels strange connection to the battle, hinting at forgotten past.
 (Jungmin)    (Final Battle)
 ```
 
-**Locations:**
-1. **Great Gate** – Start, meet Jungmin  
-2. **Central Square** – First fight, meet Youngseo  
-3. **Barracks** – Get weapon  
-4. **Temple** – Heal, lore  
-5. **Abyss Rift** – Final battle
+**Key Locations**
+
+1. **Great Gate** – Starting point
+2. **Central Square** – First combat encounter
+3. **Barracks** – Weapon acquisition
+4. **Temple** – Healing and lore
+5. **Abyss Rift** – Chapter 1 boss fight
 
 ---
 
 ## ⚙️ Game Systems
 
-**Player Stats:** `HP(100) | ATK(10) | DEF(5) | Element(None)`  
-**Combat:** Attack / Item / Run  
-**Inventory:** Potions, weapons, nation emblems  
+* **Player Stats:** `HP(100) | ATK(10) | DEF(5) | Element(None)`
+* **Combat:** Turn-based (Attack / Item / Run)
+* **Inventory:** Potions, weapons, nation emblems
+* **Progression:** Level-ups, stat growth, story choices
 
 ---
 
-## 🛠️ Development Plan
+## 🛠️ Development Roadmap
 
 ```
-Phase 1 (Week 1-2): Python Prototype
-├── Player class + basic stats
-├── 5 Hongcho rooms
-├── Simple combat (attack/run)
-└── Win Chapter 1
+Phase 1 – Python Prototype (Weeks 1–2)
+├── Player, Enemy, Room classes
+├── Hongcho map & navigation
+├── Basic combat system
+└── Chapter 1 completion
 
-Phase 2 (Week 3-4): Java Refactor (SE Class)
-├── OOP: Player, Enemy, Room classes
-├── HashMap for world data
-├── JUnit tests
-├── Save/Load system
+Phase 2 – Java Refactor (Weeks 3–4)
+├── OOP redesign (Inheritance & Polymorphism)
+├── HashMap-based world structure
+├── JUnit testing
+└── Save/Load system
 
-Phase 3: Polish + Elements
-├── Elemental damage system
-├── Character dialogue trees
-└── Multiple endings for Ch1
+Phase 3 – Expansion & Polish
+├── Elemental combat modifiers
+├── Dialogue trees & branching choices
+└── Multiple endings
 ```
 
 ---
@@ -139,35 +159,26 @@ Phase 3: Polish + Elements
 
 ```
 LostStarOfTheSeven/
-├── README.md                 # This file
-├── DESIGN.md                # Full design doc
-├── python-prototype/        # Week 1-2 MVP
+├── README.md
+├── DESIGN.md
+├── python-prototype/
 │   ├── player.py
+│   ├── enemy.py
 │   ├── rooms.py
 │   └── main.py
-├── java-version/            # SE class refactor
+├── java-version/
 │   ├── src/
 │   ├── tests/
 │   └── docs/
-└── assets/                  # Design images, maps
+└── assets/
 ```
 
 ---
 
-## 🚀 Quick Start (Python Prototype)
+## 🚀 Running the Python Prototype
 
-```
+```bash
 git clone https://github.com/EvansCortez/LostStarOfTheSeven.git
 cd python-prototype
 python main.py
 ```
-
----
-
-**✨ Software Engineering Portfolio Project**  
-*Perfect for OOP, Design Patterns, Testing, Version Control classes*
-
----
-**Professional, complete, and ready to impress professors / recruiters!** 
-
-Next: Create `python-prototype/main.py` starter code?
